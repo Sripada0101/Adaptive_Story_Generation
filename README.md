@@ -49,7 +49,7 @@ The loss remains stable across training, indicating effective learning of subgoa
 ### Cumulative Reward
  Shows a steady linear increase with training episodes, indicating consistent improvement in subgoal quality and story coherence.
 
-![Cumulative Reward](images/cumulative_reward.png)
+![Cumulative Reward](images/cummulative_reward.png)
 
 ###  Reward Curve
 Tracks the evolution of reward components—coherence, relevance, and diversity.
