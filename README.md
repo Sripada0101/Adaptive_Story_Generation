@@ -44,12 +44,12 @@ The Manager policy was trained using **REINFORCE** to sample subgoal sequences t
 ###  Policy Loss Over Time
 The loss remains stable across training, indicating effective learning of subgoal sequences without divergence.
 
-![Policy Loss](images/policy_loss.png)
+![Policy Loss](images/policy _loss.png)
 
 ### Cumulative Reward
  Shows a steady linear increase with training episodes, indicating consistent improvement in subgoal quality and story coherence.
 
-![Cumulative Reward](images/cummulative_reward.png)
+![Cummulative Reward](images/cummulative_reward.png)
 
 ###  Reward Curve
 Tracks the evolution of reward components—coherence, relevance, and diversity.
