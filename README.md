@@ -110,3 +110,28 @@ Our RL-based Manager learns to guide story flow via interpretable subgoals, allo
 - Model Worker as a **differentiable environment** using simulated returns or rollout-based planning.
 - Use ** Diverse human feedback** as reward signal for interactive fine-tuning (RLHF).
 - Apply **curriculum learning**: Start with short stories, scale to full narratives as policy matures.
+
+
+---
+---
+
+##  Setup Instructions
+
+>  **Note**: Large files like the dataset and GloVe embeddings are excluded from this repository to avoid GitHub size limits. Please follow the steps below to set up the project locally.
+
+### 1. Download the WritingPrompts Dataset
+
+- Download the dataset from [https://github.com/pkoutavas/StoryDataset](https://github.com/pkoutavas/StoryDataset).
+- Place the dataset into a folder named `writingPrompts/` at the root level of this project.
+
+### 2. Download GloVe Embeddings
+
+- Download `glove.6B.zip` from [https://nlp.stanford.edu/data/glove.6B.zip](https://nlp.stanford.edu/data/glove.6B.zip).
+- Extract the contents and move the required file (e.g., `glove.6B.100d.txt`) into a folder named `glove.6B/` inside the project directory.
+
+### 3. Install Dependencies
+
+Run the following command in your terminal to install required Python libraries:
+
+```bash
+pip install -r requirements.txt
